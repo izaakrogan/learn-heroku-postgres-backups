@@ -4,7 +4,7 @@
 
  `heroku pg:backups capture --app test-postgres-backup`
 
-**get a url of the backup (this is temporary and will run expire in 10min)**
+**get a url of the backup (this is temporary and will expire after 10min)**
 
 `heroku pg:backups public-url b001 --app test-postgres-backup`
 
